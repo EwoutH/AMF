@@ -3,7 +3,7 @@ dist: xenial
 
 addons:
   apt:
-    packages:
-    - lunarg-vulkan-sdk
+    update: true
+    packages: lunarg-vulkan-sdk
 
 script: make -C amf/public/samples
