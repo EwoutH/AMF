@@ -3,7 +3,7 @@ configuration: Release
 platform: x64
 
 install:
- - appveyor DownloadFile https://vulkan.lunarg.com/sdk/home#sdk/downloadConfirm/latest/windows/vulkan-sdk.exe
+ - appveyor DownloadFile https://vulkan.lunarg.com/sdk/download/latest/windows/vulkan-sdk.exe
  - vulkan-sdk.exe
 
 build:
