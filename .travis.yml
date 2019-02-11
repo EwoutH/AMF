@@ -1,7 +1,9 @@
 language: c
+dist: xenial
 
 addons:
   apt:
+    packages:
     - lunarg-vulkan-sdk
 
 script: make -C amf/public/samples
