@@ -1,3 +1,7 @@
 language: c
 
+addons:
+  apt:
+    - lunarg-vulkan-sdk
+
 script: make -C amf/public/samples
